@@ -47,3 +47,6 @@ static void t2()
 	scheduler::add(t2, 2500);
 }
 ```
+
+# License
+WTFPL. Also present in the `scheduler.hpp` file.

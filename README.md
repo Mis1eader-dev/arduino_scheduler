@@ -40,10 +40,10 @@ static void t2()
 	
 	if(t2State)
 	{
-		scheduler::add(t1, 1500);
+		scheduler::add(t2, 1500);
 		return;
 	}
 	
-	scheduler::add(t1, 2500);
+	scheduler::add(t2, 2500);
 }
 ```
